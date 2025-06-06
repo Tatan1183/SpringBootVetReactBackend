@@ -26,6 +26,9 @@ Características Principales:
 
 ![image](https://github.com/user-attachments/assets/c2868a97-79cf-45f3-bde0-940628519689)
 
+![image](https://github.com/user-attachments/assets/ecc20814-74c7-4df8-ac69-3d74e49b4b0a)
+
+
  -Configuración y Puesta en Marcha
 
 
