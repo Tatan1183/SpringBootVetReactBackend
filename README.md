@@ -122,8 +122,8 @@ CREATE INDEX idx_citas_servicio ON citas(servicio_id);
 CREATE INDEX idx_citas_fecha ON citas(fecha_hora);
 
 
+![image](https://github.com/user-attachments/assets/504724dc-96c0-4ae7-96f4-4f32fa41dd8e)
 
-[TiendaDER.png.pdf](https://github.com/user-attachments/files/20632096/TiendaDER.png.pdf)
 
 API Endpoints Principales:
 
