@@ -115,36 +115,39 @@ CREATE INDEX idx_citas_fecha ON citas(fecha_hora);
 
 
 
--- API Endpoints Principales
+API Endpoints Principales:
 
-   Autenticación:
-      `POST /api/auth/login`: Iniciar sesión y obtener token JWT.
-   Citas:
+   
+   -Citas:
       `GET /api/citas`: Listar todas.
       `GET /api/citas/{id}`: Obtener una cita.
       `POST /api/citas`: Crear nueva.
       `PUT /api/citas/{id}`: Actualizar existente.
       `DELETE /api/citas/{id}`: Eliminar.
-   Clientes:
+      
+   -Clientes:
       `GET /api/clientes`: Listar todos.
       `GET /api/clientes/{id}`: Obtener un cliente.
       `POST /api/clientes`: Crear nuevo.
       `PUT /api/clientes/{id}`: Actualizar existente.
        `DELETE /api/clientes/{id}`: Eliminar.
-  Mascotas:
+       
+  -Mascotas:
        `GET /api/mascotas`: Listar todas.
        `GET /api/mascotas/{id}`: Obtener una mascota.
        `POST /api/mascotas`: Crear nueva.
        `POST /api/mascotas/upload`: Subir imagen para mascota (devuelve nombre del archivo).
        `PUT /api/mascotas/{id}`: Actualizar existente.
        `DELETE /api/mascotas/{id}`: Eliminar.
-  Servicios:
+       
+  -Servicios:
        `GET /api/servicios`: Listar todos.
       `GET /api/servicios/{id}`: Obtener un servicio.
        `POST /api/servicios`: Crear nuevo.
        `PUT /api/servicios/{id}`: Actualizar existente.
        `DELETE /api/servicios/{id}`: Eliminar.
-   Veterinarios:
+       
+   -Veterinarios:
        `GET /api/veterinarios`: Listar todos.
        `GET /api/veterinarios/{id}`: Obtener un veterinario.
        `POST /api/veterinarios`: Crear nuevo.
