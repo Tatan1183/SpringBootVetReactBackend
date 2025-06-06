@@ -115,20 +115,6 @@ CREATE INDEX idx_citas_fecha ON citas(fecha_hora);
 
 
 
-# Configuración de la Aplicación
-
-Modifica el archivo `src/main/resources/application.properties` con la configuración de tu base de datos:
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/appveterinaria # Ajusta el puerto si es necesario
-spring.datasource.username=tu_usuario_mysql
-spring.datasource.password=tu_contraseña_mysql
-
-server.port=8095 # Puerto en el que correrá el backend
-
-La API estará disponible en http://localhost:8095.
-
-
 -- API Endpoints Principales
 
    Autenticación:
@@ -165,6 +151,22 @@ La API estará disponible en http://localhost:8095.
        `POST /api/veterinarios/upload`: Subir imagen para veterinario (devuelve nombre del archivo).
        `PUT /api/veterinarios/{id}`: Actualizar existente.
        `DELETE /api/veterinarios/{id}`: Eliminar.
+
+
+-Configuración de la Aplicación
+
+Modifica el archivo `src/main/resources/application.properties` con la configuración de tu base de datos:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/appveterinaria # Ajusta el puerto si es necesario
+spring.datasource.username=tu_usuario_mysql
+spring.datasource.password=tu_contraseña_mysql
+
+server.port=8095 # Puerto en el que correrá el backend
+
+La API estará disponible en http://localhost:8095.
+
+
 
 
 
