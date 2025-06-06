@@ -4,12 +4,12 @@ Este es el componente backend del sistema de gestión de clínica veterinaria Ve
 
 -Características Principales
 
-API RESTful: Endpoints para operaciones CRUD en todas las entidades principales.
-Persistencia de Datos: Uso de Spring Data JPA con Hibernate para interactuar con una base de datos MySQL.
-Manejo de Archivos: Endpoints para la subida de imágenes para mascotas y veterinarios, almacenadas localmente en el servidor.
-Configuración CORS: Permite peticiones desde el frontend desarrollado en React.
+-API RESTful: Endpoints para operaciones CRUD en todas las entidades principales.
+-Persistencia de Datos: Uso de Spring Data JPA con Hibernate para interactuar con una base de datos MySQL.
+-Manejo de Archivos: Endpoints para la subida de imágenes para mascotas y veterinarios, almacenadas localmente en el servidor.
+-Configuración CORS: Permite peticiones desde el frontend desarrollado en React.
 
- Tecnologías Utilizadas
+ Tecnologias Utilizadas: 
 
 -   Java 17 (o la versión que estés usando)
 -   Spring Boot (última versión estable usada, ej: 3.5.0)
