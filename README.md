@@ -29,6 +29,11 @@ Características Principales:
 ![image](https://github.com/user-attachments/assets/ecc20814-74c7-4df8-ac69-3d74e49b4b0a)
 
 
+Diagrama de Arquitectura de Capas Simplificado
+
+![image](https://github.com/user-attachments/assets/4de1a34f-7e4c-45de-ae43-a42f2996b35a)
+
+
  -Configuración y Puesta en Marcha
 
 
@@ -117,6 +122,8 @@ CREATE INDEX idx_citas_servicio ON citas(servicio_id);
 CREATE INDEX idx_citas_fecha ON citas(fecha_hora);
 
 
+
+[TiendaDER.png.pdf](https://github.com/user-attachments/files/20632096/TiendaDER.png.pdf)
 
 API Endpoints Principales:
 
